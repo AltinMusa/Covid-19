@@ -34,15 +34,15 @@ window.onload = function () {
 var chart = new CanvasJS.Chart("chartContainer7", {
   animationEnabled: true,
   title:{
-    text: "Daily High Temperature at Different Beaches"
+    text: "Te infektuar/te sheruar/viktima"
   },
   axisX: {
     valueFormatString: "DD MMM,YY"
   },
   axisY: {
-    title: "Temperature (in °C)",
+    title: "",
     includeZero: false,
-    suffix: " °C"
+    suffix: " "
   },
   legend:{
     cursor: "pointer",
@@ -53,48 +53,48 @@ var chart = new CanvasJS.Chart("chartContainer7", {
     shared: true
   },
   data: [{
-    name: "Myrtle Beach",
+    name: "Te infektuar",
     type: "spline",
-    yValueFormatString: "#0.## °C",
+    yValueFormatString: "#0.## ",
     showInLegend: true,
     dataPoints: [
-      { x: new Date(2017,6,24), y: 31 },
-      { x: new Date(2017,6,25), y: 31 },
-      { x: new Date(2017,6,26), y: 29 },
-      { x: new Date(2017,6,27), y: 29 },
-      { x: new Date(2017,6,28), y: 31 },
-      { x: new Date(2017,6,29), y: 30 },
-      { x: new Date(2017,6,30), y: 29 }
+      { x: new Date(2020,2,13), y: 9 },
+      { x: new Date(2020,2,15), y: 5 },
+      { x: new Date(2020,2,17), y: 12 },
+      { x: new Date(2020,2,19), y: 26 },
+      { x: new Date(2020,2,21), y: 12 },
+      { x: new Date(2020,2,25), y: 6 },
+      { x: new Date(2020,2,27), y: 9 }
     ]
   },
   {
-    name: "Martha Vineyard",
+    name: "Viktima",
     type: "spline",
-    yValueFormatString: "#0.## °C",
+    yValueFormatString: "#0.## ",
     showInLegend: true,
     dataPoints: [
-      { x: new Date(2017,6,24), y: 20 },
-      { x: new Date(2017,6,25), y: 20 },
-      { x: new Date(2017,6,26), y: 25 },
-      { x: new Date(2017,6,27), y: 25 },
-      { x: new Date(2017,6,28), y: 25 },
-      { x: new Date(2017,6,29), y: 25 },
-      { x: new Date(2017,6,30), y: 25 }
+      { x: new Date(2020,2,13), y: 0 },
+      { x: new Date(2020,2,15), y: 0 },
+      { x: new Date(2020,2,17), y: 0 },
+      { x: new Date(2020,2,19), y: 1 },
+      { x: new Date(2020,2,21), y: 0 },
+      { x: new Date(2020,2,25), y: 0 },
+      { x: new Date(2020,2,27), y: 0 }
     ]
   },
   {
-    name: "Nantucket",
+    name: "Te sheruar",
     type: "spline",
-    yValueFormatString: "#0.## °C",
+    yValueFormatString: "#0.## ",
     showInLegend: true,
     dataPoints: [
-      { x: new Date(2017,6,24), y: 22 },
-      { x: new Date(2017,6,25), y: 19 },
-      { x: new Date(2017,6,26), y: 23 },
-      { x: new Date(2017,6,27), y: 24 },
-      { x: new Date(2017,6,28), y: 24 },
-      { x: new Date(2017,6,29), y: 23 },
-      { x: new Date(2017,6,30), y: 23 }
+      { x: new Date(2020,2,13), y: 0 },
+      { x: new Date(2020,2,15), y: 0 },
+      { x: new Date(2020,2,17), y: 0 },
+      { x: new Date(2020,2,19), y: 0 },
+      { x: new Date(2020,2,21), y: 0 },
+      { x: new Date(2020,2,25), y: 1 },
+      { x: new Date(2020,2,27), y: 0 }
     ]
   }]
 });
@@ -390,9 +390,9 @@ function toggleDataSeries(e){
         <div class="row mb-5">
           <div class="col-12">
             <p class="mb-0">
-              <a href="#" class="p-3"><span class="icon-facebook"></span></a>
+              <a href="https://www.facebook.com/altin.musa.7" class="p-3"><span class="icon-facebook"></span></a>
               <a href="#" class="p-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-3"><span class="icon-instagram"></span></a>
+              <a href="https://www.instagram.com/altiinn_m/" class="p-3"><span class="icon-instagram"></span></a>
               <a href="#" class="p-3"><span class="icon-linkedin"></span></a>
               <a href="#" class="p-3"><span class="icon-pinterest"></span></a>
             </p>
@@ -402,7 +402,7 @@ function toggleDataSeries(e){
           <div class="col-md-12">
             <p class="mb-0">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >AltinMsua</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="#" target="_blank" >AltinMsua</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
